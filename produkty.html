@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="icon" type="image/x-icon" href="src/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <script src="js/produkty.js" type=text/javascript></script>
+    <title>E-Worker │ Produkty</title>
+</head>
+
+<body>
+    <div class="fixedheader">
+        <header>
+            <div class="px-3 bg-dark text-white containerwidth">
+                <div class="container">
+                    <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                        <a href="index.html"
+                            class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+                            <img class="obrazek" width="50" height="50" src="src/logo.png">
+                        </a>
+
+                        <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+                            <li>
+                                <a href="index.html" class="nav-link text-white">
+                                    <img class="bi d-block mx-auto mb-1" width="24" height="24" src="src/home.png">
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#produkty" class="nav-link text-secondary">
+                                    <img class="bi d-block mx-auto mb-1" width="24" height="24" src="src/produkty.png">
+                                    Produkty
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#objednavky" class="nav-link text-white">
+                                    <img class="bi d-block mx-auto mb-1" width="24" height="24"
+                                        src="src/2023_02_23_0i7_Kleki.png">
+                                    Objednávky
+                                </a>
+                            </li>
+                            <li>
+                                <a href="info.html" class="nav-link text-white">
+                                    <img class="bi d-block mx-auto mb-1" width="24" height="24" src="src/info.png">
+                                    Info
+                                </a>
+                            </li>
+                            <li>
+                                <a href="zakaznicka-sluzba.html" class="nav-link text-white">
+                                    <img class="bi d-block mx-auto mb-1" width="24" height="24"
+                                        src="src/2023_02_23_0i8_Kleki.png">
+                                    Zákaznická služba
+                                </a>
+                            </li>
+                            <li>
+                                <div class="px-3 y1 mb-3 bg-dark">
+                                    <div class="container d-flex flex-wrap justify-content-center">
+                                        <form class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto">
+                                            <input type="search" class="form-control" placeholder="Vyhledat..."
+                                                aria-label="Search">
+                                        </form>
+
+                                        <div class="text-end">
+                                            <a href="login.html"><button type="button"
+                                                    class="btn btn-light text-dark me-2 buttonsize">Přihlásit
+                                                    se</button></a>
+                                            <a href="login2.html"><button type="button"
+                                                    class="btn btn-outline-light buttonsize">Registrovat se</button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+    <div class="mezera" id="produkty"></div>
+    <div class="nadpiswrapper">
+        <h1 class="nadpis1">Produkty</h1>
+    </div>
+    <div class="row sloupec">
+        <div class="card col-lg margincardtop margincard1" style="width: 18rem;">
+            <img class="card-img-top imgcard" src="src/jamal.jpg" alt="produkt-jamal">
+            <div class="card-body">
+                <h5 class="card-title">Jamal<small class="doprava">25 let</small></h5>
+                <p class="card-text">Životnost: <span class="doprava">3 až 5 měsíců</span><br>Rasa: <span
+                        class="doprava">černá</span><br>Nemoci/zranění: <span class="doprava">žlutá zimnice
+                    </span><br>Cena: <span class="doprava">3999$</span></p>
+
+                <div class="btn-group-toggle marginpopisvec" data-toggle="buttons" id="divdrop1">
+                    <label class="btn btn-sm pribehdropdown">
+                        <input type="checkbox" unchecked autocomplete="off" onclick="pribehdropdown1()"
+                            id="pribehclick1">Příběh
+                        <img class="bi mx-auto mb-1" width="14" height="14" src="src/dropdown.svg" id="dropdownimage1">
+                    </label>
+                </div>
+                <p class="card-text popis marginpopisvec" id="pribeh1">Jamal byl odchycen v málé vesničce položené na
+                    malém ostrově uprostřed
+                    Pacifického oceánu. Po příjezdu chytačů se vesnice začala bránit, však dlouho nevydržela. Jamal byl
+                    jeden z hlavních odpůrců, kteří silně vzdorovaly proti našim pracovníkům. A se stejnou sílou a
+                    odhodlaností může pracovat i pro Vás. Jamal se specializuje ve farmaření a transportu, ale
+                    samozřejmě
+                    dokáže dělat cokoliv, co si jen můžete zamanout. Nesmíme ale zapomenout, že Jamal má bohužel Žlutou
+                    zimnici a zas tak dlouho se nedožije. Ale i přes všechny tyto překážky je to silný a chrabrý
+                    bojovník a určitě by neměl chybět v kolekci každého správného "zaměstnavatele".</p>
+
+                <div class="btn-group-toggle posbuttons" data-toggle="buttons">
+                    <label class="btn btn-outline-dark kosik">
+
+                        <img class="bi mx-auto mb-1 posrel" width="20" height="20" src="src/kosikcernej.png">
+
+                        <img class="bi mx-auto mb-1 posabs" width="20" height="20" src="src/kosikbilej.png">
+                        <input type="checkbox" unchecked autocomplete="off" id="jamal" onclick="kosik()"> <span
+                            id="jamaltext">Přidat do košíku</span>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="card col-lg margincard margincardtop margincard1" style="width: 18rem;">
+            <img class="card-img-top" src="src/denzel.jpg" alt="produkt-denzel">
+            <div class="card-body">
+                <h5 class="card-title">Denzel<small class="doprava">8 let</small></h5>
+                <p class="card-text">Životnost: <span class="doprava">min. 1 měsíc</span><br>Rasa: <span
+                        class="doprava">černá</span><br>Nemoci/zranění: <span class="doprava">Chybí levá
+                        noha</span><br>Cena: <span class="doprava">1999$</span></p>
+
+                <div class="btn-group-toggle marginpopisvec" data-toggle="buttons" id="divdrop2">
+                    <label class="btn btn-sm pribehdropdown">
+                        <input type="checkbox" unchecked autocomplete="off" onclick="pribehdropdown2()"
+                            id="pribehclick2">Příběh
+                        <img class="bi mx-auto mb-1" width="14" height="14" src="src/dropdown.svg" id="dropdownimage2">
+                    </label>
+                </div>
+                <p class="card-text popis marginpopisvec" id="pribeh2">Denzel byl odchycen jako malý hošík a odtržen od
+                    své rodiny, která byla potom
+                    zabita někde v Ugandském pralese. Po několika neúspěšných pokusech o útěk, které byly zastaveny naší
+                    Slave Patrol jednotkou byla Denzlovy useknuta levá noha. Nyní je však zpátky v plném proudu a plný
+                    energie připraven dělat jakoukoliv věc, která se Vám jen zamane. Pro Vaše plné uspokojení a
+                    maximální spokojenost si k Denzelovi můžete zakoupit bonusovou protézu, či jiné úžasné pomůcky,
+                    abyste si zpříjemnili, či zjednodušili život. Momentálně Denzel jen čeká na toho správného
+                    kupce.<br><br>Budete jím zrovna Vy?</p>
+                <div class="btn-group-toggle posbuttons" data-toggle="buttons">
+                    <label class="btn btn-outline-dark kosik">
+
+                        <img class="bi mx-auto mb-1 posrel" width="20" height="20" src="src/kosikcernej.png">
+
+                        <img class="bi mx-auto mb-1 posabs" width="20" height="20" src="src/kosikbilej.png">
+                        <input type="checkbox" unchecked autocomplete="off" id="otrok2" onclick="kosik2()"> <span
+                            id="otrok2text">Přidat do košíku</span>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row sloupec">
+        <div class="card col-lg margincardtop margincard1" style="width: 18rem;">
+            <img class="card-img-top" src="src/juan.jpg" alt="produkt-jamal">
+            <div class="card-body">
+                <h5 class="card-title">Juan<small class="doprava">12 let</small></h5>
+                <p class="card-text">Životnost: <span class="doprava">min. 1 rok</span><br>Rasa: <span
+                        class="doprava">mexičan</span><br>Nemoci/zranění: <span class="doprava">žádné</span><br>Cena:
+                    <span class="doprava">4299$</span>
+                </p>
+
+                <div class="btn-group-toggle marginpopisvec" data-toggle="buttons" id="divdrop3">
+                    <label class="btn btn-sm pribehdropdown">
+                        <input type="checkbox" unchecked autocomplete="off" onclick="pribehdropdown3()"
+                            id="pribehclick3">Příběh
+                        <img class="bi mx-auto mb-1" width="14" height="14" src="src/dropdown.svg" id="dropdownimage3">
+                    </label>
+                </div>
+                <p class="card-text popis marginpopisvec" id="pribeh3">Juan byl malý hošík žijící v Mexiku. Byl členem
+                    jednoho z největších drogových kartelů, tak jako většina lidí v Mexiku. Jednou však svojí zásilku
+                    nedoručil. Kartel, kterého byl členem se ho pokusil zbavit. Poté co jen tak tak uprchl, byl odchycen
+                    na hranici Mexika naší profesionální jednotkou. Teď už Juan nikam neuteče a jen čeká na svého nového
+                    pána.</p>
+                <div class="btn-group-toggle posbuttons" data-toggle="buttons">
+                    <label class="btn btn-outline-dark kosik">
+
+                        <img class="bi mx-auto mb-1 posrel" width="20" height="20" src="src/kosikcernej.png">
+
+                        <img class="bi mx-auto mb-1 posabs" width="20" height="20" src="src/kosikbilej.png">
+                        <input type="checkbox" unchecked autocomplete="off" id="otrok3" onclick="kosik3()"> <span
+                            id="otrok3text">Přidat do košíku</span>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="card col-lg margincard margincardtop margincard1" style="width: 18rem;">
+            <img class="card-img-top" src="src/wu_chang.png" alt="produkt-wuchang">
+            <div class="card-body">
+                <h5 class="card-title">Wu chang<small class="doprava">15 let</small></h5>
+                <p class="card-text">Životnost: <span class="doprava">min. 1 rok</span><br>Rasa: <span
+                        class="doprava">asiat</span><br>Nemoci/zranění: <span class="doprava">Autismus</span><br>Cena:
+                    <span class="doprava">7499¥</span>
+                </p>
+
+                <div class="btn-group-toggle marginpopisvec" data-toggle="buttons" id="divdrop4">
+                    <label class="btn btn-sm pribehdropdown">
+                        <input type="checkbox" unchecked autocomplete="off" onclick="pribehdropdown4()"
+                            id="pribehclick4">Příběh
+                        <img class="bi mx-auto mb-1" width="14" height="14" src="src/dropdown.svg" id="dropdownimage4">
+                    </label>
+                </div>
+                <p class="card-text popis marginpopisvec" id="pribeh4">Wu chang byl odchycen na severokorejských
+                    hranicích. Byl to dobrý pracovník a jak jsme i později zjistili, také výborný běžec. Dokázal vydržet
+                    utíkat před naším zkušeným týmem chytačů celých 5 hodin. Poté však byl i přesto odchycen a po úderu
+                    do hlavy pro zastavení budoucích útěků odvezen do naší firmy pro pozdější zabalení, prodání a
+                    odeslání. Momentálně jen čeká na svého nového pána.</p>
+                <div class="btn-group-toggle posbuttons" data-toggle="buttons">
+                    <label class="btn btn-outline-dark kosik">
+
+                        <img class="bi mx-auto mb-1 posrel" width="20" height="20" src="src/kosikcernej.png">
+
+                        <img class="bi mx-auto mb-1 posabs" width="20" height="20" src="src/kosikbilej.png">
+                        <input type="checkbox" unchecked autocomplete="off" id="otrok4" onclick="kosik4()"> <span
+                            id="otrok4text">Přidat do košíku</span>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <br><br>
+    <div class="nadpiswrapper" id="objednavky">
+        <h1 class="nadpis1">Objednávky</h1>
+    </div>
+
+    <div class="sloupec"><br>
+        <p class="h5">Vaše položky:</p><br>
+        <div class="polozka" id="pracovnik1"><img src="src/clovek.png" height="20px" style="margin-right: 6px;"><span
+                class="polozka-text">Jamal</span><span class="cena-polozka">3999$</span></div>
+        <div class="polozka" id="pracovnik2"><img src="src/clovek.png" height="20px" style="margin-right: 6px;"><span
+                class="polozka-text">Denzel</span><span class="cena-polozka">1999$</span></div>
+        <div class="polozka" id="pracovnik3"><img src="src/clovek.png" height="20px" style="margin-right: 6px;"><span
+                class="polozka-text">Juan</span><span class="cena-polozka">4299$</span></div>
+        <div class="polozka" id="pracovnik4"><img src="src/clovek.png" height="20px" style="margin-right: 6px;"><span
+                class="polozka-text">Wu chang</span><span class="cena-polozka">7499¥</span></div>
+    </div>
+    <br>
+    <form class="sloupec">
+        <p class="h5">Detaily objednávky:</p><br>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="name">Křestní jméno</label>
+                <input type="text" class="form-control" id="name" placeholder="Pavel">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="name1">Příjmení</label>
+                <input type="text" class="form-control" id="name1" placeholder="Novák">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputAddress">Adresa</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="Masarykovo náměstí 123">
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-10">
+                <label for="inputCity">Město</label>
+                <input type="text" class="form-control" id="inputCity" placeholder="Lysá nad Labem">
+            </div>
+            <div class="form-group col-md-2">
+                <label for="inputZip">PSČ</label>
+                <input type="text" class="form-control" id="inputZip" placeholder="289 22">
+            </div>
+        </div>
+
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="Radio" id="Radio1" value="option1" checked onclick="ostatnicheck()">
+            <label class="form-check-label" for="Radio1" onclick="ostatnicheck()">
+                Dobírkou
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="Radio" id="Radio2" value="option2" onclick="ostatnicheck()">
+            <label class="form-check-label" for="Radio2" onclick="ostatnicheck()">
+                Alza-box
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="Radio" id="Radio3" value="option3" onclick="karta()">
+            <label class="form-check-label" for="Radio3">
+                Platební kartou
+            </label>
+        </div>
+        <div class="form-check disabled">
+            <input class="form-check-input" type="radio" name="Radio" id="Radio4" value="option4" onclick="ostatnicheck()">
+            <label class="form-check-label" for="Radio4" onclick="ostatnicheck()">
+                Bankovním převodem
+            </label>
+        </div>
+        <div id="kartaform">
+            <hr>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="namecard" class="smalltextlbl">Jméno držitele karty</label>
+                    <input type="text" class="form-control" id="namecard" placeholder="Pavel Novák">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="email" class="smalltextlbl">E-mailová adresa</label>
+                    <input type="text" class="form-control" id="email" placeholder="example@eworker.com">
+                </div>
+            </div>
+            <div class="form-row trformvec">
+                <div class="form-group col-md-4">
+                    <label for="numbercard" class="smalltextlbl">Číslo karty</label>
+                    <input type="number" class="form-control" id="numbercard" placeholder="4242 0000 0000 0000">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="date" class="smalltextlbl">Datum vypršení platnosti</label>
+                    <input type="number" class="form-control" id="date" placeholder="01 / 12">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="cvv" class="smalltextlbl">CVV</label>
+                    <input type="number" class="form-control" id="cvv" placeholder="123">
+                </div>
+                <div class="custom-control custom-checkbox mx-2 pb-3">
+                    <input type="checkbox" class="custom-control-input" id="defaultUnchecked">
+                    <label class="custom-control-label" for="defaultUnchecked">Zapamatovat kartu</label>
+                </div>
+            </div>
+        </div>
+        <br id="mezerabutton">
+        <button type="button" class="btn btn-dark" onclick="objednavkabutton()">Objednat</button>
+    </form>
+
+    <div class="mezera2"></div>
+    <div class="container">
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
+                <li class="nav-item"><a href="produkty.html" class="nav-link px-2 text-muted">Produkty</a></li>
+                <li class="nav-item"><a href="produkty.html#objednavky" class="nav-link px-2 text-muted">Objednávky</a>
+                </li>
+                <li class="nav-item"><a href="info.html" class="nav-link px-2 text-muted">Info</a></li>
+                <li class="nav-item"><a href="zakaznicka-sluzba.html" class="nav-link px-2 text-muted">Zákaznická
+                        služba</a></li>
+            </ul>
+            <p class="text-center text-muted">© 2023 E-Worker, corp.</p>
+        </footer>
+    </div>
+</body>
+
+</html>

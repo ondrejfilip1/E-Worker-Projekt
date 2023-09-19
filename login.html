@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="icon" type="image/x-icon" href="src/logo.png">
+    <title>E-Worker │ Přihlásit se</title>
+</head>
+
+<body>
+    <div class="fixedheader">
+        <header>
+            <div class="px-3 bg-dark text-white">
+                <div class="container">
+                    <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                        <a href="index.html"
+                            class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+                            <img class="obrazek" width="50" height="50" src="src/logo.png">
+                        </a>
+
+                        <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+                            <li>
+                                <a href="index.html" class="nav-link text-white">
+                                    <img class="bi d-block mx-auto mb-1" width="24" height="24" src="src/home.png">
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="produkty.html" class="nav-link text-white">
+                                    <img class="bi d-block mx-auto mb-1" width="24" height="24" src="src/produkty.png">
+                                    Produkty
+                                </a>
+                            </li>
+                            <li>
+                                <a href="produkty.html#objednavky" class="nav-link text-white">
+                                    <img class="bi d-block mx-auto mb-1" width="24" height="24"
+                                        src="src/2023_02_23_0i7_Kleki.png">
+                                    Objednávky
+                                </a>
+                            </li>
+                            <li>
+                                <a href="info.html" class="nav-link text-white">
+                                    <img class="bi d-block mx-auto mb-1" width="24" height="24" src="src/info.png">
+                                    Info
+                                </a>
+                            </li>
+                            <li>
+                                <a href="zakaznicka-sluzba.html" class="nav-link text-white">
+                                    <img class="bi d-block mx-auto mb-1" width="24" height="24"
+                                        src="src/2023_02_23_0i8_Kleki.png">
+                                    Zákaznická služba
+                                </a>
+                            </li>
+                            <li>
+                                <div class="px-3 y1 mb-3 bg-dark">
+                                    <div class="container d-flex flex-wrap justify-content-center">
+                                        <form class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto">
+                                            <input type="search" class="form-control" placeholder="Vyhledat..."
+                                                aria-label="Search">
+                                        </form>
+
+                                        <div class="text-end">
+                                            <a href="login.html"><button type="button" class="btn btn-light text-dark me-2">Přihlásit se</button></a>
+                                            <a href="login2.html"><button type="button" class="btn btn-outline-light">Registrovat se</button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+    <div class="mezera"></div>
+    <form class="loginvec">
+        <div class="form-group">
+            <label for="exampleInputEmail1">E-mail adresa</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="">
+            <small id="emailHelp" class="form-text text-muted">Příklad: example@eworker.com</small>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Heslo</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
+        </div>
+        <div class="form-check form-switch marginvecswitch">
+            <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+            <label class="form-check-label" for="flexSwitchCheckDefault">Zapamatovat si účet</label>
+        </div>
+        <button type="submit" class="btn btn-dark">Přihlásit se</button>
+        <small class="form-text text-muted">Nemáte ještě založený účet? <a href="login2.html">Registrovat se</a></small>
+    </form>
+    <div class="mezera2"></div>
+    <div class="container">
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
+                <li class="nav-item"><a href="produkty.html#produkty" class="nav-link px-2 text-muted">Produkty</a></li>
+                <li class="nav-item"><a href="produkty.html#objednavky" class="nav-link px-2 text-muted">Objednávky</a></li>
+                <li class="nav-item"><a href="info.html" class="nav-link px-2 text-muted">Info</a></li>
+                <li class="nav-item"><a href="zakaznickasluzba.html" class="nav-link px-2 text-muted">Zákaznická služba</a></li>
+            </ul>
+            <p class="text-center text-muted">© 2023 E-Worker, corp.</p>
+        </footer>
+    </div>
+</body>
+
+</html>

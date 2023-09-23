@@ -2,7 +2,7 @@
 
 [Stranka](https://ondrejfilip1.github.io/E-Worker-Projekt/)
 
-##Autori
+## Autori
 
 Ondrej Filip<br>
 Petr Cankar
